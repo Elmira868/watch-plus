@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    @font-face {
+        font-family: 'Iran_lighter';
+        font-display: swap;
+        src: url('../Fonts/IRANSans/IRANSans_Light.ttf') format('ttf');
+      }
+
+      @font-face {
+        font-family: 'Iran_Medium';
+        font-display: swap;
+        src: url('../Fonts/IRANSans/IRANSans_Medium.ttf') format('ttf');
+      }
+
+      @font-face {
+        font-family: 'Iran_Bold';
+        font-display: swap;
+        src: url('../Fonts/IRANSans/IRANSans_Bold.ttf') format('ttf');
+      }
+}
+
+@layer utilities{
+    .active__item{
+        color: #cca000
+    }
+}
