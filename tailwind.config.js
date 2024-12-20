@@ -6,11 +6,14 @@ module.exports = {
       colors:{
         'primary-color': '#cca000',
       },
-      fontFamily: {
-        'Iran_lighter': 'Iran_lighter',
-        'Iran_Medium': 'Iran_Medium',
-        'Iran_Bold': 'Iran_Bold',
-      },
+    fontFamily:{
+      VazirmatnExtraLight: ['Vazirmatn-ExtraLight', 'sans-serif'],
+      VazirmatnRegular: ['Vazirmatn-Regular', 'sans-serif'],
+      VazirmatnBold: ['Vazirmatn-Bold']
+    },
+    boxShadow:{
+      'dark-shadow':'1px -1px 5px 0px rgba(0,0,0,0.35);'
+    }
     },
   },
   plugins: [

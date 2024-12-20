@@ -2,28 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
-    @font-face {
-        font-family: 'Iran_lighter';
-        font-display: swap;
-        src: url('../Fonts/IRANSans/IRANSans_Light.ttf') format('ttf');
-      }
-
-      @font-face {
-        font-family: 'Iran_Medium';
-        font-display: swap;
-        src: url('../Fonts/IRANSans/IRANSans_Medium.ttf') format('ttf');
-      }
-
-      @font-face {
-        font-family: 'Iran_Bold';
-        font-display: swap;
-        src: url('../Fonts/IRANSans/IRANSans_Bold.ttf') format('ttf');
-      }
+body{
+  direction: rtl;
+  font-family: 'Vazirmatn-Regular';
 }
+
+@layer base{
+  @font-face {
+    font-family:'Vazirmatn-ExtraLight';
+    src: url(../assets/Fonts/Vazirmatn-ExtraLight.woff2) format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Vazirmatn-Regular';
+    src: url(../assets/Fonts/Vazirmatn-Regular.woff2) format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Vazirmatn-Bold';
+    src: url(../assets/Fonts/Vazirmatn-Bold.woff2) format('woff2');
+  }
+}
+
 
 @layer utilities{
     .active__item{
         color: #cca000
+    }
+
+    .menu__elm--hover:hover{
+      color: #cca000;
+    }
+
+    .undisplayable{
+display: none;
     }
 }
