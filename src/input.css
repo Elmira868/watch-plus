@@ -7,6 +7,8 @@ body{
   font-family: 'Vazirmatn-Regular';
 }
 
+
+
 @layer base{
   @font-face {
     font-family:'Vazirmatn-ExtraLight';
