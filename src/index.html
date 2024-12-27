@@ -37,6 +37,28 @@
   <body>
     <!-- Svg -->
     <svg class="hidden">
+
+      <symbol id="wrench" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75a4.5 4.5 0 0 1-4.884 4.484c-1.076-.091-2.264.071-2.95.904l-7.152 8.684a2.548 2.548 0 1 1-3.586-3.586l8.684-7.152c.833-.686.995-1.874.904-2.95a4.5 4.5 0 0 1 6.336-4.486l-3.276 3.276a3.004 3.004 0 0 0 2.25 2.25l3.276-3.276c.256.565.398 1.192.398 1.852Z" />
+        <path stroke-linecap="round" stroke-linejoin="round" d="M4.867 19.125h.008v.008h-.008v-.008Z" />
+      </symbol>
+      
+
+      <symbol
+        id="shopping-card"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+        />
+      </symbol>
+
       <symbol
         id="chevron-down"
         xmlns="http://www.w3.org/2000/svg"
@@ -391,27 +413,99 @@
       </div>
     </div>
     <!-- Brands Logo -->
-     <div class="hidden md:grid md:grid-cols-3 lg:flex md:mr-12 lg:mr-1.5">
-    <a href="#">
-      <img class="lg:h-52 lg:w-52 h-40 w-40" src="../assets/Images/Brands logo/rolex logo.jpg" alt="Rolex logo">
-    </a>
+    <div class="hidden md:grid md:grid-cols-3 lg:flex md:mr-12 lg:mr-1.5">
       <a href="#">
-        <img class="lg:h-52 lg:w-52 h-40 w-40" src="../assets/Images/Brands logo/Omega logo.png" alt="Omega logo">
-      </a>
-    <a href="#">
-      <img class="lg:h-52 lg:w-52 h-40 w-40" src="../assets/Images/Brands logo/Seiko-Logo.png" alt="Seiko logo">
-    </a>
-<a href="#">
-  <img class="lg:h-52 lg:w-52 h-40 w-40" src="../assets/Images/Brands logo/Casio_logo.jpg" alt="Casio logo">
-</a>
-      <a href="#">
-        <img class="lg:h-52 lg:w-52 h-40 w-40" src="../assets/Images/Brands logo/Cartier_Logo.png" alt="Cartier logo">
+        <img
+          class="lg:h-52 lg:w-52 h-40 w-40"
+          src="../assets/Images/Brands logo/rolex logo.jpg"
+          alt="Rolex logo"
+        />
       </a>
       <a href="#">
-        <img class="lg:h-52 lg:w-52 h-40 w-40" src="../assets/Images/Brands logo/Citizen_Watch-Logo.png" alt="Citizen logo">
+        <img
+          class="lg:h-52 lg:w-52 h-40 w-40"
+          src="../assets/Images/Brands logo/Omega logo.png"
+          alt="Omega logo"
+        />
       </a>
-     </div>
+      <a href="#">
+        <img
+          class="lg:h-52 lg:w-52 h-40 w-40"
+          src="../assets/Images/Brands logo/Seiko-Logo.png"
+          alt="Seiko logo"
+        />
+      </a>
+      <a href="#">
+        <img
+          class="lg:h-52 lg:w-52 h-40 w-40"
+          src="../assets/Images/Brands logo/Casio_logo.jpg"
+          alt="Casio logo"
+        />
+      </a>
+      <a href="#">
+        <img
+          class="lg:h-52 lg:w-52 h-40 w-40"
+          src="../assets/Images/Brands logo/Cartier_Logo.png"
+          alt="Cartier logo"
+        />
+      </a>
+      <a href="#">
+        <img
+          class="lg:h-52 lg:w-52 h-40 w-40"
+          src="../assets/Images/Brands logo/Citizen_Watch-Logo.png"
+          alt="Citizen logo"
+        />
+      </a>
+    </div>
+    <!-- Trend watches -->
+    <section class="md:border-t border-b border-gray-300">
+      <h1 class="text-center text-base md:text-lg lg:text-2xl font-VazirmatnBold mt-4 p-6">
+        ساعت های پرطرفدار
+      </h1>
+      <!-- Trend watch container -->
+      <div class="lg:flex grid md:grid-cols-2 border border-gray-300 lg:justify-between mt-2 trend-watch__container">
+        <div class="p-2 border-b border-gray-300">
+          <img
+            class="lg:w-60 lg:h-60 w-full"
+            src="../assets/Images/Trend watches/Trend-watch-2.jpg"
+            alt="Trend watch 1"
+          />
+          <!-- Title and price box -->
+          <div class="text-center mt-3">
+            <h3 class="font-VazirmatnBold text-zinc-950">ساعت مچی مردانه کاسیو</h3>
+            <span class="mt-4 mb-4 font-VazirmatnBold text-zinc-950 number-fa">5000000 تومان</span>
+          </div>
+          <!-- Add to basket box -->
+          <div
+            class="flex justify-center items-center text-center gap-x-2 mt-4 mb-4"
+          >
+            <div>
+              <button
+                class="flex gap-x-1 border border-zinc-950 p-2 group hover:bg-zinc-950"
+              >
+                <svg class="w-5 h-5 text-zinc-950 group-hover:text-white">
+                  <use href="#wrench"></use>
+                </svg>
+                <span
+                  class="text-zinc-950 font-VazirmatnRegular group-hover:text-white"
+                  >شخصی سازی<span
+                >
+              </button>
+            </div>
 
+            <div>
+              <button
+                class="border border-zinc-950 p-2.5 group hover:bg-zinc-950"
+              >
+                <svg class="w-5 h-5 group-hover:text-white">
+                  <use href="#heart"></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <script src="../assets/Vender/Swiper/swiper-js.js"></script>
     <script>
