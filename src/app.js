@@ -30,7 +30,7 @@ elements.navbarIcon.addEventListener('click', () => toggleClass(elements.navbarM
 // Opening and closing the submenu
 elements.navbarIconSubmenu.addEventListener('click', () => toggleClass(elements.navbarSubmenuContainer, 'undisplayable'));
 
-// Trend watches
+// Trend watches created
 const trendWatchesContainer = document.querySelector('.trend-watch__container');
 const trendWatches = [
     {
@@ -56,7 +56,7 @@ const trendWatches = [
 
 trendWatches.forEach((watch) => {
     trendWatchesContainer.insertAdjacentHTML('beforeend', `
-      <div class="p-2 border-r border-b border-gray-300">
+      <div class="p-2 border-r border-gray-300">
           <img
             class="lg:w-60 lg:h-60 w-full"
             src="${watch.img}"
