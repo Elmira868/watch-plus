@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors:{
         'primary-color': '#cca000',
+        'secondary-color': '#f5cc00',
       },
     fontFamily:{
       VazirmatnExtraLight: ['Vazirmatn-ExtraLight', 'sans-serif'],
