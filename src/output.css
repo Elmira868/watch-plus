@@ -1082,8 +1082,12 @@ input[type="range"]::-ms-fill-lower {
   height: 1.5rem;
 }
 
-.h-16 {
-  height: 4rem;
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-12 {
+  height: 3rem;
 }
 
 .h-3 {
@@ -1122,18 +1126,6 @@ input[type="range"]::-ms-fill-lower {
   height: 100%;
 }
 
-.h-8 {
-  height: 2rem;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-12 {
-  height: 3rem;
-}
-
 .w-1 {
   width: 0.25rem;
 }
@@ -1142,8 +1134,12 @@ input[type="range"]::-ms-fill-lower {
   width: 50%;
 }
 
-.w-16 {
-  width: 4rem;
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-12 {
+  width: 3rem;
 }
 
 .w-20 {
@@ -1190,16 +1186,8 @@ input[type="range"]::-ms-fill-lower {
   width: 100%;
 }
 
-.w-8 {
-  width: 2rem;
-}
-
-.w-10 {
-  width: 2.5rem;
-}
-
-.w-12 {
-  width: 3rem;
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .grid-cols-4 {
@@ -1208,10 +1196,6 @@ input[type="range"]::-ms-fill-lower {
 
 .grid-cols-7 {
   grid-template-columns: repeat(7, minmax(0, 1fr));
-}
-
-.grid-cols-1 {
-  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -1639,12 +1623,16 @@ body{
     display: none;
   }
 
+  .md\:h-16 {
+    height: 4rem;
+  }
+
   .md\:h-32 {
     height: 8rem;
   }
 
-  .md\:h-16 {
-    height: 4rem;
+  .md\:w-16 {
+    width: 4rem;
   }
 
   .md\:w-44 {
@@ -1661,10 +1649,6 @@ body{
 
   .md\:w-\[25\.43rem\] {
     width: 25.43rem;
-  }
-
-  .md\:w-16 {
-    width: 4rem;
   }
 
   .md\:grid-cols-2 {
@@ -1684,6 +1668,14 @@ body{
          column-gap: 0.5rem;
   }
 
+  .md\:border-b {
+    border-bottom-width: 1px;
+  }
+
+  .md\:border-b-0 {
+    border-bottom-width: 0px;
+  }
+
   .md\:border-l {
     border-left-width: 1px;
   }
@@ -1694,14 +1686,6 @@ body{
 
   .md\:border-t-0 {
     border-top-width: 0px;
-  }
-
-  .md\:border-b-0 {
-    border-bottom-width: 0px;
-  }
-
-  .md\:border-b {
-    border-bottom-width: 1px;
   }
 
   .md\:text-2xl {
@@ -1814,12 +1798,12 @@ body{
     border-width: 0px;
   }
 
-  .lg\:border-l-0 {
-    border-left-width: 0px;
-  }
-
   .lg\:border-b-0 {
     border-bottom-width: 0px;
+  }
+
+  .lg\:border-l-0 {
+    border-left-width: 0px;
   }
 
   .lg\:border-t-0 {
